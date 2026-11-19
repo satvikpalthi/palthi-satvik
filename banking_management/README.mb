@@ -1,0 +1,23 @@
+# Banking Management System
+
+## Introduction
+A Banking Management System developed using C programming.
+
+## Features
+- Create bank accounts
+- Deposit money
+- Withdraw money
+- Check account balance
+
+## Programming Language
+C
+
+## Concepts Used
+- Structures
+- Functions
+- Conditional statements
+- Loops
+- Switch statements
+
+## Author
+Satvik
