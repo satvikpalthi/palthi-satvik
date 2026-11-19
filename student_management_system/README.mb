@@ -1,0 +1,97 @@
+# Student Management System
+
+## Project Overview
+
+The Student Management System is a console-based application developed using the C programming language. It helps manage student information, academic records, and marks efficiently.
+
+The application allows users to add, display, search, update, and delete student records.
+
+## Features
+
+- Add new student records
+- Display all student details
+- Search students using roll number
+- Update student information
+- Delete student records
+- Calculate total marks
+- Calculate percentage
+- Manage multiple student records
+
+## Technologies Used
+
+- Programming Language: C
+- Compiler: GCC
+- Platform: Windows / Linux
+
+## Project Structure
+
+```text
+Student-Management-System/
+│
+├── student_management.c
+└── README.md
+```
+
+## How to Run the Project
+
+1. Download or clone the repository.
+2. Open the project folder.
+3. Compile the C program.
+
+```bash
+gcc student_management.c -o student_management
+```
+
+4. Run the application.
+
+**Windows:**
+```bash
+student_management.exe
+```
+
+**Linux:**
+```bash
+./student_management
+```
+
+## How It Works
+
+1. Select an option from the main menu.
+2. Enter student details such as roll number, name, and marks.
+3. View all student records or search for a particular student.
+4. Update existing student information when required.
+5. Delete unwanted student records.
+6. Exit the application using the Exit option.
+
+## Concepts Used
+
+- Structures
+- Arrays
+- Functions
+- Loops
+- Conditional statements
+- Switch statements
+- String handling
+- Searching and deletion logic
+
+## Future Improvements
+
+- Student login system
+- File handling for permanent data storage
+- Attendance management
+- Subject-wise grade calculation
+- Student report generation
+- Database integration
+- Graphical user interface
+
+## Limitations
+
+Student records are stored in memory and are lost when the program exits. File handling can be added for permanent storage.
+
+## Author
+
+Developed as a C programming project for learning and practical application.
+
+## License
+
+This project is open-source and available for educational purposes.
