@@ -1,0 +1,79 @@
+# Online Quiz Application
+
+## Project Overview
+The Online Quiz Application is a simple console-based application developed using the C programming language. It allows users to participate in a multiple-choice quiz, answer questions, and receive their results automatically.
+
+The application checks answers, calculates scores, and displays the final percentage based on the user's performance.
+
+## Features
+- Multiple-choice questions
+- Four answer options for each question
+- Automatic answer verification
+- Score calculation
+- Correct and incorrect answer tracking
+- Final percentage calculation
+- Pass or fail result display
+
+## Technologies Used
+- Programming Language: C
+- Compiler: GCC
+- Platform: Windows / Linux
+
+## Project Structure
+```text
+Online-Quiz-Application/
+│
+├── online_quiz.c
+└── README.md
+```
+
+## How to Run the Project
+
+1. Download or clone this repository.
+2. Open the project folder.
+3. Compile the C program using GCC.
+
+```bash
+gcc online_quiz.c -o online_quiz
+```
+
+4. Run the application.
+
+On Windows:
+```bash
+online_quiz.exe
+```
+
+On Linux:
+```bash
+./online_quiz
+```
+
+## How It Works
+1. The application displays quiz questions.
+2. The user selects an answer by entering an option number.
+3. The program checks whether the selected answer is correct.
+4. The score increases for every correct answer.
+5. At the end, the application displays the total score, percentage, and result.
+
+## Concepts Used
+- Variables and data types
+- Input and output functions
+- Conditional statements
+- Arithmetic operations
+- Score calculation
+- Basic program logic
+
+## Future Improvements
+- Add more questions.
+- Add user registration and login.
+- Introduce different quiz categories.
+- Add a timer for each question.
+- Store quiz results in a file.
+- Create a leaderboard.
+
+## Author
+Developed as a beginner-level C programming project.
+
+## License
+This project is open-source and available for educational purposes.
